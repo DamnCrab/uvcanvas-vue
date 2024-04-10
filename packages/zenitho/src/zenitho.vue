@@ -14,6 +14,8 @@ onMounted(() => {
   gradient = new Gradient();
   gradient.initGradient({
     gradientColors: ["#ef008f", "#6ec3f4", "#7038ff", "#ffba27"],
+    speed: 1,
+    ctn:ctn
   });
 
   ctn.appendChild(gradient.el);
@@ -31,9 +33,7 @@ onUnmounted(() => {
 });
 </script>
 <template>
-  <div class="ogl-zenitho">
-    <div ref="zenitho"></div>
-  </div>
+  <div class="ogl-zenitho" ref="zenitho"></div>
 </template>
 <style scoped>
 .ogl-zenitho {
