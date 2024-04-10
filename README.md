@@ -1,7 +1,8 @@
+# UVCanvas-vue
 
-# UVCanvas
+### WIP - This project is still in development and not ready for production use.
 
-An open source React.js component library for beautifully shaded canvas, brought to you by **[Latent Cat](https://latentcat.com)**.
+An open source Vue.js component library for beautifully shaded canvas, brought to you by **[Latent Cat](https://latentcat.com)**.
 
 ![hero](github/hero.webp)
 
